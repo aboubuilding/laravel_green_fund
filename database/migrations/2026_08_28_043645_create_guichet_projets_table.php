@@ -17,7 +17,7 @@ return new class extends Migration
                 ->nullable();
             $table->bigInteger('projet_id')
                 ->nullable();
-            $table->primary(['guichet_id', 'projet_id']);
+
 
             $table->integer('etat')->default(1);
 
