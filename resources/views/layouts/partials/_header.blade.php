@@ -775,10 +775,10 @@
                     <i class="fas fa-diagram-project"></i> Projets <i class="fas fa-chevron-down caret"></i>
                 </a>
                 <div class="hnav-drop" role="menu">
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-list"></i> Liste des projets</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-envelope"></i> Manifestations d'intérêt</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-upload"></i> Soumissions projets</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-star"></i> Projets financés</a>
+                    <a href="{{ route('projets.index') }}" class="hnav-drop-item"><i class="fas fa-list"></i> Liste des projets</a>
+                    <a href="{{ route('manifestations.index') }}" class="hnav-drop-item"><i class="fas fa-envelope"></i> Manifestations d'intérêt</a>
+                    <a href="{{ route('soumissions.index') }}" class="hnav-drop-item"><i class="fas fa-upload"></i> Soumissions projets</a>
+                    <a href="{{ route('projet-finances.index') }}" class="hnav-drop-item"><i class="fas fa-star"></i> Projets financés</a>
                     <a href="#" class="hnav-drop-item"><i class="fas fa-check-double"></i> Réalisations</a>
                 </div>
             </div>
@@ -789,8 +789,8 @@
                     <i class="fas fa-exclamation-triangle"></i> Réclamations <i class="fas fa-chevron-down caret"></i>
                 </a>
                 <div class="hnav-drop" role="menu">
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-grip-lines"></i> Griefs</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-file-signature"></i> Plaintes</a>
+                    <a href="{{ route('griefs.index') }}" class="hnav-drop-item"><i class="fas fa-grip-lines"></i> Griefs</a>
+                    <a href="{{ route('plaintes.index') }}" class="hnav-drop-item"><i class="fas fa-file-signature"></i> Plaintes</a>
                 </div>
             </div>
 
@@ -801,14 +801,14 @@
                 </a>
                 <div class="hnav-drop" role="menu">
                     <div class="hnav-drop-title"><i class="fas fa-store"></i> Guichets & Facilités</div>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-store"></i> Guichets</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-hand-holding-heart"></i> Facilités</a>
+                    <a href="{{ route('guichets.index') }}" class="hnav-drop-item"><i class="fas fa-store"></i> Guichets</a>
+                    <a href="{{ route('facilites.index') }}" class="hnav-drop-item"><i class="fas fa-hand-holding-heart"></i> Facilités</a>
                     <div class="hnav-drop-div"></div>
                     <div class="hnav-drop-title"><i class="fas fa-newspaper"></i> Actualités</div>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-newspaper"></i> Actualités</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-file-pdf"></i> Communiqués officiels</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-calendar"></i> Événements</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-info-circle"></i> Infos</a>
+                    <a href="{{ route('actualites.index') }}" class="hnav-drop-item"><i class="fas fa-newspaper"></i> Actualités</a>
+                    <a href="{{ route('communiques.index') }}" class="hnav-drop-item"><i class="fas fa-file-pdf"></i> Communiqués officiels</a>
+                    <a href="{{ route('evenements.index') }}" class="hnav-drop-item"><i class="fas fa-calendar"></i> Événements</a>
+                    <a href="{{ route('infos.index') }}" class="hnav-drop-item"><i class="fas fa-info-circle"></i> Infos</a>
                 </div>
             </div>
 
@@ -818,10 +818,10 @@
                     <i class="fas fa-folder-open"></i> Ressources <i class="fas fa-chevron-down caret"></i>
                 </a>
                 <div class="hnav-drop" role="menu">
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-file-alt"></i> Documents</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-photo-video"></i> Médias</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-book"></i> Publications</a>
-                    <a href="#" class="hnav-drop-item"><i class="fas fa-envelope-open-text"></i> Newsletter</a>
+                    <a href="{{ route('documents.index') }}" class="hnav-drop-item"><i class="fas fa-file-alt"></i> Documents</a>
+                    <a href="{{ route('media.index') }}" class="hnav-drop-item"><i class="fas fa-photo-video"></i> Médias</a>
+                    <a href="{{ route('politiques.index') }}" class="hnav-drop-item"><i class="fas fa-book"></i> Publications</a>
+                    <a href="{{ route('newsletter.index') }}" class="hnav-drop-item"><i class="fas fa-envelope-open-text"></i> Newsletter</a>
                 </div>
             </div>
 

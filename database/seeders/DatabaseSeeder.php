@@ -15,6 +15,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+
+        $this->call([
+            DocumentSeeder::class,
+            MediaSeeder::class,
+            PolitiqueSeeder::class,
+        ]);
         // Admin
         User::updateOrCreate(
             ['email' => 'admin@togogreenfund.tg'],
@@ -65,5 +71,7 @@ class DatabaseSeeder extends Seeder
                 'etat' => TypeEtat::ACTIF,
             ]
         );
+
+
     }
 }
